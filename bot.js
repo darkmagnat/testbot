@@ -446,7 +446,6 @@ function play(guild, song) {
 }
  
 client.on('message', message => {
-  if (!message.content.startsWith(PREFIX)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
   if (message.author.id !== "439187325503930369") return;
